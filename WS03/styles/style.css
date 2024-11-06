@@ -3,6 +3,13 @@ body {
     color: white;
 }
 
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }  
+    
+    
 /* Style for div element using class selector */
 .my-div {
     border: 2px dotted white; /* Dotted border, 2 pixels wide */
