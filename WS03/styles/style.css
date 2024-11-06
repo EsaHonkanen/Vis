@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Style for div element using class selector */
+.my-div {
+    border: 2px dotted white; /* Dotted border, 2 pixels wide */
+    width: 100px; /* Set width to 100 pixels */
+    height: 100px; /* Set height to 100 pixels */
+}
