@@ -4,19 +4,18 @@
     box-sizing: border-box;
 }
 
-/* Body and HTML adjustments for vertical expansion */
 html, body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    min-height: 100vh; /* Ensures body takes up the full viewport height */
+    min-height: 100vh; 
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: column; /* Allows header, main, and footer to stack vertically */
+    flex-direction: column; 
 }
 
-/* Header styling */
+
 header {
     background-color: #000080;
     color: #ffffff;
@@ -28,7 +27,7 @@ header h1 {
     font-size: 2em;
 }
 
-/* Navigation bar styling */
+
 nav {
     display: flex;
     justify-content: center;
@@ -48,10 +47,10 @@ main {
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    flex-grow: 1; /* Allows main to expand to fill available space */
+    flex-grow: 1; 
 }
 
-/* Article section styling */
+
 article {
     flex: 3;
     padding: 20px;
@@ -65,7 +64,7 @@ article h2 {
     margin-bottom: 15px;
 }
 
-/* Aside section styling */
+
 aside {
     flex: 1;
     padding: 20px;
@@ -79,7 +78,7 @@ aside h2 {
     margin-bottom: 15px;
 }
 
-/* Section styling */
+
 section {
     padding: 20px;
     background-color: #f0f0f0;
@@ -93,7 +92,7 @@ section h2 {
     margin-bottom: 15px;
 }
 
-/* Footer styling */
+
 footer {
     background-color: #000080;
     color: #ffffff;
@@ -102,7 +101,7 @@ footer {
     font-size: 0.9em;
 }
 
-/* Additional styling for text inside sections */
+
 p {
     margin-bottom: 10px;
 }
