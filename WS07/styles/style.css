@@ -1,0 +1,65 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Row styling */
+.row {
+    margin-top: 20px;
+}
+
+/* Column styling */
+.col {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+/* Hover effect for columns */
+.col:hover {
+    transform: scale(1.05);
+    background-color: #e9ecef;
+}
+
+/* Text styling */
+.text-center {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.col-6, .col-sm-4 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+/* Hover effect for columns */
+.col-6:hover, .col-sm-4:hover {
+    transform: scale(1.05);
+    background-color: #e9ecef;
+}
+
+/* Force new row at md breakpoint and above */
+.w-100 {
+    height: 0; /* Collapse element visually */
+    margin: 0;
+    padding: 0;
+}
+
+/* Text styling */
+.text-center {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}

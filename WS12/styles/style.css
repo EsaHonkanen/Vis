@@ -1,0 +1,23 @@
+
+
+.text-column {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.carousel {
+    width: 1000px; /* Set desired width */
+    height: 600px; /* Set desired height */
+    overflow: hidden; /* Ensures images don't overflow */
+    position: relative;
+  }
+
+  .carousel img {
+    width: 100%; /* Ensures the image fits the carousel width */
+    height: auto; /* Maintains aspect ratio */
+  }
