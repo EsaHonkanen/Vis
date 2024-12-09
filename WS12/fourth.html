@@ -1,107 +1,153 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/style.css">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
-    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Etusivu</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="second.html">Toinen sivu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="third.html">Voimannosto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="fourth.html">Kehonrakennus</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Muita linkkejä
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Etusivu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="second.html"
+                >Toinen sivu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="third.html">Voimannosto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fourth.html">Kehonrakennus</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Lisää
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://www.fitnesstukku.fi/"
+                    >Kuntosali Verkkokauppa</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.vahava.fi/"
+                    >Valmennus</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.treeniohjelma.org/liikepankki/"
+                    >Tietoa Kuntosaliliikkeistä</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-        </nav>
+    <div class="container">
+      <div class="p-5 my-4 bg-secondary rounded-3">
+        <h1>Kehonrakennus</h1>
+        <p>
+          Kehonrakennus on toinen kuntosaliin liittyvistä kilpailullisista
+          muodoista. Kehonrakennuksessa on kyse suuren lihasmassan
+          kasvattamisesta koko kehoon kokonaisvaltaisesti. Vaikka myös naturaali
+          kisoja järjestetään , stereoidit ovat valitettavan suuri osa tätä
+          kyseistä lajia.
+        </p>
+      </div>
 
-        <div class="container">
-            <div class="p-5 my-4 bg-secondary rounded-3"> 
-                <h1>Kehonrakennus</h1>
-                <p>Kehonrakennus on toinen kuntosaliin liittyvistä kilpailullisista muodoista. Kehonrakennuksessa on kyse suuren lihasmassan
-                 kasvattamisesta koko kehoon kokonaisvaltaisesti. Vaikka myös naturaali kisoja järjestetään , stereoidit ovat valitettavan suuri
-                 osa tätä kyseistä lajia.
-                </p>
+      <div class="card-group">
+        <div class="card">
+          <img src="kuvat/ronniecoleman.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Ronnie Coleman</h5>
+            <p class="card-text">
+              Ronnie Coleman on Amerikkalainen Kehonrakentaja. Hän syntyi 13.
+              toukokuuta 1964 ja voitti Mr. Olympia -tittelin peräti kahdeksan
+              kertaa vuosina 1998–2005, mikä tekee hänestä yhden historian
+              menestyneimmistä kehonrakentajista.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="kuvat/arnorld.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Arnold Schwarzenegger</h5>
+            <p class="card-text">
+              Arnold Schwarzenegger on itävallassa syntynyt kehonrakentaja,
+              näyttelijä, poliitikko ja yrittäjä, joka syntyi 30. heinäkuuta
+              1947. Hän voitti uransa aikana Mr. Olympia -tittelin seitsemän
+              kertaa (1970–1975, 1980).
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="kuvat/bullmentula.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Jari "bull" Mentula</h5>
+            <p class="card-text">
+              Jari "Bull" Mentula on suomalainen kehonrakentaja, valmentaja ja
+              mediapersoona, joka syntyi 1976. Hän on saavuttanut menestystä
+              kehonrakennuksessa voittamalla useita Suomen mestaruuksia ja
+              kilpailemalla kansainvälisellä tasolla. Mentula on varmasti yksi
+              Suomen tunnetuimmista kehonrakennuksen ja fitness-alan
+              edustajista.
+            </p>
+          </div>
+        </div>
+      </div>
 
-                </div>
+      <hr />
+      <footer>
+        <div class="row">
+          <div class="col-md-6">
+            <p>Copyright &copy; 2024 Esa Honkanen</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#" class="text-light">Terms of Use</a>
+            <span class="text-muted mx-2">|</span>
+            <a href="#" class="text-light">Privacy Policy</a>
+          </div>
+        </div>
+      </footer>
+    </div>
 
-                <div class="card-group">
-                    <div class="card">
-                      <img src="kuvat/ronnie coleman.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Ronnie Coleman</h5>
-                        <p class="card-text">Ronnie Coleman on Amerikkalainen Kehonrakentaja. Hän syntyi 13. toukokuuta 1964 ja voitti Mr. Olympia -tittelin peräti kahdeksan kertaa vuosina 1998–2005, mikä tekee hänestä yhden historian menestyneimmistä kehonrakentajista.</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="kuvat/arnorld.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Arnold Schwarzenegger</h5>
-                        <p class="card-text">Arnold Schwarzenegger on itävallassa syntynyt kehonrakentaja, näyttelijä, poliitikko ja yrittäjä, joka syntyi 30. heinäkuuta 1947. Hän voitti uransa aikana Mr. Olympia -tittelin seitsemän kertaa (1970–1975, 1980).</p>
-                        
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="kuvat/bull mentula.webp" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Jari "bull" Mentula</h5>
-                        <p class="card-text">Jari "Bull" Mentula on suomalainen kehonrakentaja, valmentaja ja mediapersoona, joka syntyi 1976. Hän on saavuttanut menestystä kehonrakennuksessa voittamalla useita Suomen mestaruuksia ja kilpailemalla kansainvälisellä tasolla. Mentula on varmasti yksi Suomen tunnetuimmista kehonrakennuksen ja fitness-alan edustajista.</p>
-                       
-                      </div>
-                    </div>
-                  </div>
-
-
-
-        <hr>
-                <footer>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>Copyright &copy; 2024 Esa Honkanen</p>
-                        </div>
-                        <div class="col-md-6 text-md-end">
-                            <a href="#" class="text-light">Terms of Use</a>
-                            <span class="text-muted mx-2">|</span>
-                            <a href="#" class="text-light">Privacy Policy</a>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-
-
- 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
-  </html>
-
+</html>

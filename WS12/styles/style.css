@@ -1,22 +1,22 @@
 
 
 body {
-  background-color: #373837e0; /* Dark gray background */
-  color: #ffffff; /* White text for contrast */
-  margin: 0; /* Remove default margins */
-  font-family: Arial, sans-serif; /* Optional font styling */
+  background-color: #373837e0; 
+  color: #ffffff;
+  margin: 0; 
+  font-family: Arial, sans-serif; 
 }
 
 .carousel {
-    width: 1000px; /* Set desired width */
-    height: 600px; /* Set desired height */
-    overflow: hidden; /* Ensures images don't overflow */
+    width: 1000px; 
+    height: 600px; 
+    overflow: hidden; 
     position: relative;
   }
 
   .carousel img {
-    width: 100%; /* Ensures the image fits the carousel width */
-    height: auto; /* Maintains aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
 
   
